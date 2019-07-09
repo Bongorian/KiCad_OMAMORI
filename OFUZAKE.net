@@ -1,0 +1,38 @@
+(export (version D)
+  (design
+    (source C:\Users\bongo\bongorian\KiCad\OFUZAKE\OFUZAKE.sch)
+    (date "2019/07/09 14:55:11")
+    (tool "Eeschema (5.1.2)-1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source OFUZAKE.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref OM1)
+      (value OMAMORI)
+      (footprint OMAMORI:OMAMORI)
+      (libsource (lib omamori) (part OMAMORI) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5D242CB8))
+    (comp (ref OM2)
+      (value OMAMORI)
+      (footprint OMAMORI:OMAMORI)
+      (libsource (lib omamori) (part OMAMORI) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5D243467)))
+  (libparts
+    (libpart (lib omamori) (part OMAMORI)
+      (fields
+        (field (name Reference) OM)
+        (field (name Value) OMAMORI))))
+  (libraries
+    (library (logical omamori)
+      (uri C:\Users\bongo\bongorian\KiCad\OFUZAKE/omamori.lib)))
+  (nets))
